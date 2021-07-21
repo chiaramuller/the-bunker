@@ -4,6 +4,10 @@
         <!--The title for SEO and browser tab-->
         <title>The Bunker Hotel Sydney</title>
 
+        <!-- Viewport meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
         <!-- Gridlex-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
         
@@ -21,14 +25,17 @@
     </head>
     
     <body>
-        <header class="bg-image bg-roof padded light-text center tall-70 grid-middle">
-            <h1>The Bunker</h1>
+        <header class="bg-image bg-roof padded light-text tall-70 grid">
+            <div class="col-12-middle center">
+                <h1>The Bunker</h1>
+            </div>
+
         </header>
 
         <!--Dark Intro Section-->
-        <section class="grid bg-featured light-text padded tall-60">
-            <div class="col-6 bg-image bg-bed padded"></div>
-            <div class="col-6 padded-1">
+        <section class="grid bg-featured light-text padded ">
+            <div class="col-6_sm-12 bg-image bg-bed padded bg-padded tall-50"></div>
+            <div class="col-6_sm-12-middle padded">
                 <h2>Lux.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis earum reiciendis doloremque dolorem aliquam nisi, id eos molestiae officia accusantium ipsam, beatae architecto ex perspiciatis quae numquam nulla perferendis? Eos.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est natus deleniti, laboriosam corrupti.</p>
@@ -36,42 +43,43 @@
         </section>
 
         <!--Opening Banner-->
-        <section class="bg-image padded center light-text bg-hallway tall-50">
-            <h2>Opening Mid May</h2>
-            <h3>2021</h3>
+        <section class="bg-image padded center light-text bg-hallway grid tall-50">
+            <div class="col-12-middle">
+                <h2>Opening Mid May</h2>
+                <h3 class="not-bold">2021</h3>
+            </div>
         </section>
 
         <!--Features / About blocks-->
         <section class="grid">
-            <div class="col-6 padded">
+            <div class="col-6_sm-12-middle padded">
                 <h2>Lobby Dreams</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur laborum, sapiente harum dolorem aliquam quis excepturi non, fuga deleniti repellendus nostrum culpa incidunt officiis quibusdam tempora eaque eligendi libero delectus.</p>
             </div>
-            <div class="col-6 bg-image bg-lounge tall-50"></div>
+            <div class="col-6_sm-12 bg-image bg-lounge tall-50 bg-padded "></div>
         </section>
-        <section class="grid">
-            <div class="col-6 bg-image bg-lounge-2 tall-50"></div>
-            <div class="col-6 padded">
+        <section class="grid flex-flip-sm">
+            <div class="col-6_sm-12 bg-image bg-lounge-2 tall-50 bg-padded"></div>
+            <div class="col-6_sm-12-middle padded">
                 <h2>The Bunker Bar</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur laborum, sapiente harum dolorem aliquam quis excepturi non, fuga deleniti repellendus nostrum culpa incidunt officiis quibusdam tempora eaque eligendi libero delectus.</p>
             </div>
-
         </section>
         <section class="grid">
-            <div class="col-6 padded">
+            <div class="col-6_sm-12-middle padded">
                 <h2>Fall in Love</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur laborum, sapiente harum dolorem aliquam quis excepturi non, fuga deleniti repellendus nostrum culpa incidunt officiis quibusdam tempora eaque eligendi libero delectus.</p>
             </div>
-            <div class="col-6 bg-image bg-sheets tall-50"></div>
+            <div class="col-6_sm-12 bg-image bg-sheets bg-padded tall-50 hide-sm"></div>
         </section>
 
 
         <!--Social section -->
-        <section >
-            <div class="bg-image bg-roof right light-text padded">
+        <section class="social-banner bg-image bg-roof right light-text padded tall-50 bg-top grid padded-r-lg">
+            <div class="col-12-middle">
                 <h2>Hit us up on Socials</h2>
                 <nav>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -80,20 +88,22 @@
         </section>
 
         <!-- Snazzy Map -->
-        <section class="bg-image bg-map tall-50"></section>
+        <section class="bg-image bg-padded bg-map"></section>
 
         <!--Footer-->
-        <footer class="grid bg-dark light-text padded">
-            <div class="col-6">
-                <h2 class="logo">The Bunker</h2>
+        <footer class="grid bg-dark light-text">
+            <div class="col-8_sm-12-bottom padded">
+                <h2 class="logo">The <br>Bunker</h2>
             </div>
-            <div class="col-6 padded">
+            <div class="col-4_sm-12-bottom padded">
                 <h4>Stay with us</h4>
-                <p> <a href="#"> 100 Main Street, Sydney</a></p>
-                <p> <a href="mailto:chiara_mueller@outlook.com">chiara_mueller@outlook.com</a></p>
-                <p> <a href="tel:004917695872650">+49 176 958 726 50</a></p>
+                <nav>
+                    <p> <a href="#"> 100 Main Street, Sydney</a></p>
+                    <p> <a href="mailto:chiara_mueller@outlook.com">chiara_mueller@outlook.com</a></p>
+                    <p> <a href="tel:004917695872650">+49 176 958 726 50</a></p>
+                </nav>
             </div>
-            <div class="col-12 center">Copyright 2021</div>
+            <div class="col-12 center subtle">Copyright 2021</div>
         </footer>
     </body>
 </html>

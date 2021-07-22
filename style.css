@@ -18,6 +18,10 @@ italic
     box-sizing: border-box;
 }
 
+[class*="grid-"], 
+[class*="grid_"], 
+[class~="grid"] {margin:0;}
+
 /*Temporary Styles*/
 /*{
     padding: 0.5rem;
